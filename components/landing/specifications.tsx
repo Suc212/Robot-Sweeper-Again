@@ -32,9 +32,9 @@ const specs = [
     description: "Precision mapping",
   },
   {
-    icon: Wifi,
-    label: "Connectivity",
-    value: "Wi-Fi 6",
+    icon: HardDrive,
+    label: "Efficiency",
+    value: "Smart Mopping",
     description: "Smart home ready",
   },
   {
