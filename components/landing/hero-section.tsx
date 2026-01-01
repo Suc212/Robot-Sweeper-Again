@@ -25,18 +25,18 @@ export function HeroSection() {
               <div className="rounded-xl border bg-card p-4 sm:p-6 shadow-sm">
                 <div className="flex items-baseline gap-4 sm:gap-6">
                   <div>
-                    <p className="text-xl sm:text-2xl font-bold text-foreground">GH₵800</p>
+                    <p className="text-xl sm:text-2xl font-bold text-foreground">GH₵1500</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">1 Unit</p>
                   </div>
                   <div>
-                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵1,450</p>
+                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵2,800</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">2 Units</p>
-                    <p className="text-xs font-medium text-primary">Save GH₵150</p>
+                    <p className="text-xs font-medium text-primary">Save GH₵200</p>
                   </div>
                   <div>
-                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵2,000</p>
+                    <p className="text-xl sm:text-2xl font-bold text-primary">GH₵3,900</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">3 Units</p>
-                    <p className="text-xs font-medium text-primary">Save GH₵400</p>
+                    <p className="text-xs font-medium text-primary">Save GH₵600</p>
                   </div>
                 </div>
                 <Button className="mt-4 w-full h-12 text-base font-semibold" size="lg" asChild>

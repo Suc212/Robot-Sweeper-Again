@@ -13,28 +13,28 @@ import { CheckCircle2, Package, ShieldCheck, Truck, Banknote } from "lucide-reac
 const quantityOptions = [
   {
     quantity: 1,
-    unitPrice: 800,
-    totalPrice: 800,
+    unitPrice: 1500,
+    totalPrice: 1500,
     discount: 0,
     label: "1 Unit",
     description: "SweepBot Pro + Charging Dock",
   },
   {
     quantity: 2,
-    unitPrice: 725,
-    totalPrice: 1450,
-    discount: 150,
+    unitPrice: 1400,
+    totalPrice: 2800,
+    discount: 200,
     label: "2 Units",
-    description: "Save GH₵150 - Perfect for home & office",
+    description: "Perfect for home & office",
     popular: true,
   },
   {
     quantity: 3,
-    unitPrice: 667,
-    totalPrice: 2000,
-    discount: 400,
+    unitPrice: 1350,
+    totalPrice: 3900,
+    discount: 600,
     label: "3 Units",
-    description: "Save GH₵400 - Best for families & gifts",
+    description: "Best for families & gifts",
   },
 ]
 
@@ -274,9 +274,9 @@ export function OrderForm() {
 
               <div className="rounded-xl bg-muted/50 p-4">
                 <div className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">{selectedOption.quantity} x SweepBot Pro @ GH₵800</span>
+                  <span className="text-muted-foreground">{selectedOption.quantity} x SweepBot Pro @ GH₵1,500</span>
                   <span className="font-medium text-foreground">
-                    GH₵{(selectedOption.quantity * 800).toLocaleString()}
+                    GH₵{(selectedOption.quantity * 1500).toLocaleString()}
                   </span>
                 </div>
                 {selectedOption.discount > 0 && (
