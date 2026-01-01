@@ -74,7 +74,7 @@ export function Specifications() {
           </div>
           <div className="overflow-hidden rounded-2xl bg-card shadow-lg">
             <img
-              src="/images/h35ee116e8b1e4c08a2bb22d86b630754j.avif"
+              src="/images/SS8.jpg"
               alt="SweepBot Pro component details"
               className="h-auto w-full object-cover"
             />
