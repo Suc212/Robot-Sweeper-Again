@@ -63,7 +63,7 @@ export function Specifications() {
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
           <div className="overflow-hidden rounded-2xl bg-card shadow-lg">
             <img
-              src="/images/hfc9e39b99d58450aa2dcafacbaedd297q.avif"
+              src="/images/SS9.jpg"
               alt="SweepBot Pro internal technology diagram"
               className="h-auto w-full object-cover"
             />
